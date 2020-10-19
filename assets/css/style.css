@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap');
+
+/*---------------------------------Navbar */
+
+.navbar {
+    display: flex;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.9);
+}
+
+
+.image-container {
+    height: 150vh;
+    width: 100%;
+    background: url(../images/mushroom.jpg);
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.recipeimages img {
+    height: auto;
+    max-width: 100%;
+}
