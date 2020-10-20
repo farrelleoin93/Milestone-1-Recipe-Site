@@ -3,24 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
     />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Famished</title>
   </head>
+
   <body>
     <header class="fixed-top">
       <div>
@@ -71,7 +66,17 @@
     </header>
 
     <section>
-      <div class="container-fluid image-container"></div>
+      <div class="container-fluid image-container">
+        <div class="jumbotron flex-container">
+          <h3>Planning a dinner party?</h3>
+          <p>Impress your family and friends with some delicious recipes.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h2><i class="fas fa-pepper-hot"></i> Recipes</h2>
+        </div>
+      </div>
       <div class="row">
         <div class="col-4 recipeimages">
           <img src="/assets/images/starters.jpg" alt="Starters" />
@@ -85,10 +90,46 @@
       </div>
 
       <div class="row">
-        <div class="col-4">Starters</div>
-        <div class="col-4">Mains</div>
-        <div class="col-4">Desserts</div>
+        <div class="col-4 label">
+          <h2>Starters</h2>
+        </div>
+        <div class="col-4 label">
+          <h2>Mains</h2>
+        </div>
+        <div class="col-4 label">
+          <h2>Desserts</h2>
+        </div>
       </div>
     </section>
+
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6">
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a href="#" target="_blank"><i class="fab fa-facebook aria-hidden icon"></i>
+              <span class="sr-only">Facebook</span></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank"><i class="fab fa-instagram aria-hidden icon"></i>
+              <span class="sr-only">Instagram</span></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank"><i class="fab fa-twitter aria-hidden icon"></i>
+              <span class="sr-only">Twitter</span></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank"><i class="fab fa-reddit aria-hidden icon"></i>
+              <span class="sr-only">Reddit</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap');
 
+
+
+body {
+    font-family: "Nunito", sans-serif;
+    padding-top: 70px;
+}
+
 /*---------------------------------Navbar */
+
+header {
+    background-color: #F5F2EB;
+}
 
 .navbar {
     display: flex;
@@ -12,21 +23,48 @@
 
 
 .image-container {
-    height: 150vh;
+    height: 110vh;
     width: 100%;
-    background: url(../images/mushroom.jpg);
+    background: url(../images/mushroom.jpg) center;
     position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: center;
-    align-items: center;
-    justify-content: center;
+    
+}
 
+.jumbotron {
+    background: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .recipeimages img {
     height: auto;
     max-width: 100%;
+    padding: 10px;
+}
+
+.label {
+    text-align: Center;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*---------------------------------Footer */
+
+footer {
+    height: 150px;
+    background-color: #F5F2EB;
+}
+
+.icon {
+    color: #5C5553;
+    font-size: 20px;
+    text-align: right;
 }
