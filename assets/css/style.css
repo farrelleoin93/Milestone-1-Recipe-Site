@@ -7,39 +7,45 @@ body {
     padding-top: 70px;
 }
 
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+}
+
 /*---------------------------------Navbar */
 
 header {
     background-color: #F5F2EB;
 }
 
-.navbar {
-    display: flex;
-}
-
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.9);
 }
+
+/*---------------------------------Section */
+
 
 
 .image-container {
     height: 110vh;
     width: 100%;
-    background: url(../images/mushroom.jpg) center;
+    background: url(../images/dumplings.jpg) center;
     position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-}
+    }
 
-.jumbotron {
-    background: none;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+    section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
 
 .recipeimages img {
     height: auto;
@@ -59,12 +65,48 @@ h2 {
 /*---------------------------------Footer */
 
 footer {
-    height: 150px;
+    height: auto;
     background-color: #F5F2EB;
+    padding-top: 30px; 
+    
+}
+
+footer .row {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer .footer-items {
+    display: flex;
+    align-items: center;
 }
 
 .icon {
     color: #5C5553;
-    font-size: 20px;
-    text-align: right;
+    font-size: 25px;
+}
+
+.col-4 {
+    text-align: center;
+}
+
+.social-links {
+    flex-direction: row;
+    justify-content: flex-end;}
+
+footer li {
+    margin: 15px;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size: 20px
+}
+
+footer a {
+    color: #5C5553;
 }
