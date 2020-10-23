@@ -5,6 +5,7 @@
 body {
     font-family: "Nunito", sans-serif;
     padding-top: 70px;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -15,10 +16,12 @@ p {
     font-size: 20px;
 }
 
+
 /*---------------------------------Navbar */
 
 header {
     background-color: #F5F2EB;
+    width: 100%;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -40,12 +43,19 @@ header {
     background-size: cover;
     }
 
-    section {
-        padding-top: 30px;
-        padding-bottom: 30px;
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
     }
 
+section h3, h2 {
+    text-align: center;
+}
 
+.info {
+    text-align: center;
+    margin: 15px;
+}
 
 .recipeimages img {
     height: auto;
@@ -57,18 +67,21 @@ header {
     text-align: Center;
 }
 
-h2 {
-    text-align: center;
-    text-transform: uppercase;
-}
 
 /*---------------------------------Footer */
 
 footer {
-    height: auto;
+    height: 50px;
     background-color: #F5F2EB;
-    padding-top: 30px; 
-    
+    }
+
+.footer-items {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
 }
 
 footer .row {
@@ -76,18 +89,14 @@ footer .row {
     margin-right: 15px;
 }
 
-footer .footer-items {
-    display: flex;
-    align-items: center;
-}
-
 .icon {
     color: #5C5553;
-    font-size: 25px;
+    font-size: 20px;
 }
 
-.col-4 {
+footer .col-4 {
     text-align: center;
+    align-items: center;
 }
 
 .social-links {
@@ -98,15 +107,17 @@ footer li {
     margin: 15px;
 }
 
-footer p {
-    font-size: 18px;
-}
-
-footer h3 {
-    font-weight: 700;
-    font-size: 20px
-}
-
 footer a {
     color: #5C5553;
+    margin: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul.list-inline {
+    margin: 0;
 }
