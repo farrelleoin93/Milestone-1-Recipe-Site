@@ -38,23 +38,10 @@ header {
 
 /*---------------------------------Section */
 
-
-
-.image-container {
-    height: 110vh;
-    width: 100%;
-    background: url(../images/dumplings.jpg) center;
-    position: relative;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    }
-
 section {
     padding-top: 30px;
     padding-bottom: 30px;
-    }
+}
 
 section h3, h2 {
     text-align: center;
@@ -65,23 +52,43 @@ section h3, h2 {
     margin: 15px;
 }
 
+
+.label {
+    text-align: Center;
+}
+
+/*---------------------------------Recipe Pages */
+
+.template h2,h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*---------------------------------Images */
+
 .recipeimages img {
     height: auto;
     max-width: 100%;
     padding: 10px;
 }
 
-.label {
-    text-align: Center;
+.image-container {
+    height: 110vh;
+    width: 100%;
+    background: url(../images/dumplings.jpg) center;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
 
 /*---------------------------------Footer */
 
 footer {
     height: 50px;
     background-color: #F5F2EB;
-    }
+}
 
 .footer-items {
     margin-bottom: 0;
