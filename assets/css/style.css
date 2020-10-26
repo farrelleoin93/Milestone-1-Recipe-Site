@@ -18,11 +18,11 @@ p {
 }
 
 a {
-    color: #5C5553;
+    color: #fff;
 }
 
 a:hover {
-    color: #5C5553;
+    color: #fff;
 }
 
 hr {
@@ -33,13 +33,11 @@ hr {
 /*---------------------------------Navbar */
 
 header {
-    background-color: #F5F2EB;
+    background-color: #1ac741;
     width: 100%;
+    
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,.9);
-}
 
 /*---------------------------------Section */
 
@@ -92,7 +90,7 @@ section h3, h2 {
 
 footer {
     height: 50px;
-    background-color: #F5F2EB;
+    background-color: #1ac741;
 }
 
 .footer-items {
@@ -111,7 +109,7 @@ footer .row {
 }
 
 .icon {
-    color: #5C5553;
+    color: #fff;
     font-size: 20px;
 }
 
@@ -129,7 +127,7 @@ footer li {
 }
 
 footer a {
-    color: #5C5553;
+    color: #fff;
     margin: 10px;
     text-align: center;
 }
@@ -137,6 +135,7 @@ footer a {
 footer p {
     margin-top: 0;
     margin-bottom: 0;
+    color: #fff;
 }
 
 ul.list-inline {
