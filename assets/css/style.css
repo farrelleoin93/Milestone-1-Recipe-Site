@@ -3,10 +3,12 @@
 
 
 body {
-    font-family: "Nunito", sans-serif;
+    font-family: "Roboto", sans-serif;
     padding-top: 70px;
     overflow-x: hidden;
 }
+
+
 
 h1, h2, h3, h4 {
     font-family: "Roboto", sans-serif;
@@ -15,10 +17,12 @@ h1, h2, h3, h4 {
 
 p {
     font-size: 20px;
+    color: #545b62;
 }
 
 a {
     color: #fff;
+    font-family: "Roboto", sans-serif;
 }
 
 a:hover {
@@ -35,8 +39,8 @@ hr {
 header {
     background-color: #1ac741;
     width: 100%;
-    
 }
+
 
 
 /*---------------------------------Section */
@@ -47,12 +51,15 @@ section {
 }
 
 section h3, h2 {
+
     text-align: center;
+    color: #545b62;
 }
 
 .info {
     text-align: center;
     margin: 15px;
+    justify-content: center;
 }
 
 
