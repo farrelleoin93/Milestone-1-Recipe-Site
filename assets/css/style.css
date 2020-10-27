@@ -40,7 +40,7 @@ a:hover {
 }
 
 hr {
-    border: solid;
+    border-top: solid;
     color: #5C5553;
 }
 
@@ -112,6 +112,58 @@ section h3, h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+/*---------------------------------Contact Page */
+
+.email-us {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact hr {
+    width: 50%;
+}
+
+.contact h2 {
+    padding-top: 20px;
+}
+
+form {
+    margin: 25px 50px;
+}
+
+
+.form-button {
+    display: flex;
+    justify-content: center;
+}
+
+button[type="submit"] {
+    width: 50%;
+    background-color: #15a536;
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.contact-info {
+    display: flex;
+}
+
+.contact-info i {
+    display: flex;
+    font-size: 30px;
+    justify-content: flex-start;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.contact-info p {
+    display: flex;
+    font-size: 14px;    
 }
 
 /*---------------------------------Footer */
