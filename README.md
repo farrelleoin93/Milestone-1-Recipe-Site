@@ -70,6 +70,11 @@ I then used [Nunito](https://fonts.google.com/specimen/Nunito?query=nunito) for 
 
 ### Colours
 
+- For the header and footer I used a green #1ac741 I chose this colour as it reminded me of fresh ingrdients which I felt was fitting for a recipe website.
+- To contrast this I chose white #fff for the background colour of the body.
+- I also used white #fff for the font in the header and footer as I felt it worked well with the shade of green that I used.
+- For the headingd and paragraphs outside in the main body I used a dark grey #5C5553.
+
 ### Icons
 
 ## Wireframes
@@ -79,6 +84,12 @@ I then used [Nunito](https://fonts.google.com/specimen/Nunito?query=nunito) for 
 ## Features
 
 ---
+
+The main features that I want this website to have are:
+- an attractive designed
+- easily understandable navigation on different screen sizes
+- links to social media platforms
+- a contact us form
 
 ## Technologies
 
