@@ -150,7 +150,10 @@ button[type="submit"] {
 }
 
 .contact-info {
+    margin-top: 25px;
     display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .contact-info i {
@@ -164,6 +167,8 @@ button[type="submit"] {
 .contact-info p {
     display: flex;
     font-size: 14px;    
+    margin-top: 26px;
+
 }
 
 /*---------------------------------Footer */
