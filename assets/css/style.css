@@ -4,7 +4,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    padding-top: 70px;
+    padding-top: 71px;
     min-height: 100vh;
     height: 100%;
     overflow-x: hidden;
@@ -88,11 +88,21 @@ section h3, h2 {
     text-align: Center;
 }
 
+/*---------------------------------Starters, Mains, Desserts Pages */
+
+.recipes h2 {
+    padding-top: 50px;
+}
+
 /*---------------------------------Recipe Pages */
 
 .template h2,h3 {
     padding-top: 15px;
     padding-bottom: 30px;
+}
+
+.recipe-page {
+    padding-top: 20px;
 }
 
 /*---------------------------------Images */
