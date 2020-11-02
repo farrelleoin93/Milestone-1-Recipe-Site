@@ -140,7 +140,7 @@ section h3, h2 {
 .image-container {
     height: 110vh;
     width: 100%;
-    background: url(../images/dumplings.jpg) center;
+    background: url(../images/home-image.jpg) center;
     position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
