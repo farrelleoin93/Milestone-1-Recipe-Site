@@ -111,9 +111,18 @@ section h3, h2 {
     align-items: center;
 }
 
+.instructions {
+    
+}
+
+
 /*---------------------------------Recipe Pages */
 
-.template h2,h3 {
+.template h2 {
+    padding-top: 30px;
+}
+
+.template h3 {
     padding-top: 15px;
     padding-bottom: 30px;
 }
@@ -121,7 +130,7 @@ section h3, h2 {
 .recipe-page {
     display: flex;
     justify-content: center;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 /*---------------------------------Images */
@@ -147,6 +156,9 @@ section h3, h2 {
     -o-background-size: cover;
     background-size: cover;
 }
+
+/*---------------------------------Remove if needed */
+
 
 .overlay {
    position: absolute;
