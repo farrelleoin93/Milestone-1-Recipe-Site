@@ -66,7 +66,7 @@ header {
     color: #fff;
 }
 
-/*---------------------------------Section */
+/*---------------------------------Home page */
 
 section {
     padding-bottom: 30px;
@@ -84,11 +84,6 @@ section h3, h2 {
     justify-content: center;
 }
 
-
-.label {
-    text-align: Center;
-}
-
 .info h2 {
     padding-top: 30px;
 }
@@ -97,6 +92,11 @@ section h3, h2 {
     width: 70%;
     margin: 0;
     padding: 0;
+}
+
+.course {
+    width: 90%;
+    margin: auto;
 }
 
 /*---------------------------------Starters, Mains, Desserts Pages */
@@ -153,12 +153,6 @@ section h3, h2 {
     background-size: cover;
 }
 
-.title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 /*---------------------------------Contact Page */
 
 .email-us {
@@ -176,7 +170,6 @@ section h3, h2 {
 }
 
 form {
-    margin: 25px 50px;
     width: 48%;
     margin: auto;
 }
@@ -288,7 +281,6 @@ ul.list-inline {
 
 @media screen and (max-width: 992px) {
     form {
-    margin: 25px 50px;
     padding-bottom: 20px;
     width: 90%;
     margin: auto;
