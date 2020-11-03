@@ -50,7 +50,7 @@ hr {
 /*---------------------------------Navbar */
 
 header {
-    background-color: #1ac741;
+    background-color: #a82f3b;
     width: 100%;
 }
 
@@ -197,6 +197,8 @@ section h3, h2 {
 
 form {
     margin: 25px 50px;
+    width: 48%;
+    margin: auto;
 }
 
 
@@ -211,7 +213,7 @@ input {
 
 button[type="submit"] {
     width: 50%;
-    background-color: #15a536;
+    background-color: #a5a2a2;
     color: #fff;
     border: 0;
     border-radius: 2px;
@@ -219,10 +221,12 @@ button[type="submit"] {
     height: 40px;
 }
 
+button:hover {
+    background-color: #777474
+}
+
 .contact-info {
     margin-top: 25px;
-    display: flex;
-    flex-direction: column;
 }
 
 .contact-info i {
@@ -244,7 +248,7 @@ button[type="submit"] {
 
 footer {
     height: auto;
-    background-color: #1ac741;
+    background-color: #a82f3b;
 }
 
 .footer-items {
@@ -302,8 +306,11 @@ ul.list-inline {
 
 
 @media screen and (max-width: 992px) {
-    footer {
-        height: auto;
-    }
+    form {
+    margin: 25px 50px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin: auto;
+}
 
 }
