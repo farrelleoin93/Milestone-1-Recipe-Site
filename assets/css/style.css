@@ -153,30 +153,10 @@ section h3, h2 {
     background-size: cover;
 }
 
-/*---------------------------------Remove if needed */
-
-
-.overlay {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color: black;
-   opacity: 0.4;
-}
-
 .title {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.overlay h2 {
-    font-family: "Dancing Script", sans-serif;
-    font-size: 84px;
-    color: #fff;
-    padding-bottom: 200px;
 }
 
 /*---------------------------------Contact Page */
@@ -300,6 +280,7 @@ footer p {
 
 ul.list-inline {
     margin: 0;
+    display: flex;
 }
 
 /*---------------------------------Media Queries */
