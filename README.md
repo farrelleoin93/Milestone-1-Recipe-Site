@@ -70,10 +70,11 @@ I then used [Nunito](https://fonts.google.com/specimen/Nunito?query=nunito) for 
 
 ### Colours
 
-- For the header and footer I used a green #1ac741 I chose this colour as it reminded me of fresh ingrdients which I felt was fitting for a recipe website.
+- Originally for the header and footer I was planning on using a green as it reminded me of fresh ingrdients which I felt was fitting for a recipe website.
+However, I was not happy with how it looked so I instead decided to go with a maroon to match the marroon coloured salad leaves in the main image on the home page.
 - To contrast this I chose white #fff for the background colour of the body.
-- I also used white #fff for the font in the header and footer as I felt it worked well with the shade of green that I used.
-- For the headingd and paragraphs outside in the main body I used a dark grey #5C5553.
+- I also used white #fff for the font in the header and footer as I felt it worked well with the shade of maroon that I used.
+- For the headings and paragraphs in the main body I used a dark grey #5C5553.
 
 ### Icons
 
@@ -95,8 +96,13 @@ The main features that I want this website to have are:
 
 ---
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+### Languages
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) 
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### Other
+
 
 ## Testing
 
