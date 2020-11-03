@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
 
 body {
-    font-family: "Roboto", sans-serif;
-    padding-top: 71px;
-    min-height: 100vh;
-    height: 100%;
-    overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  padding-top: 71px;
+  min-height: 100vh;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 .site {
@@ -21,269 +20,280 @@ body {
   flex: 1;
 }
 
-h1, h2, h3, h4 {
-    font-family: "Domine", sans-serif;
-    font-weight: 700;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Domine", sans-serif;
+  font-weight: 700;
 }
 
 p {
-    font-size: 20px;
-    color: #545b62;
+  font-size: 20px;
+  color: #545b62;
 }
 
 a {
-    color: #fff;
-    font-family: "Domine", sans-serif;
+  color: #fff;
+  font-family: "Domine", sans-serif;
 }
 
 a:hover {
-    color: #fff;
+  color: #fff;
 }
 
 hr {
-    border-top: solid;
-    color: #5C5553;
+  border-top: solid;
+  color: #5c5553;
 }
-
-
 
 /*---------------------------------Navbar */
 
 header {
-    background-color: #a82f3b;
-    width: 100%;
+  background-color: #a82f3b;
+  width: 100%;
 }
 
 .navbar a {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .navbar .navbar-toggler {
-    border: 0;
+  border: 0;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+  color: #fff;
 }
 
 /*---------------------------------Home page */
 
 section {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
-section h3, h2 {
+section h3,
+h2 {
+  text-align: center;
+  color: #545b62;
+}
 
-    text-align: center;
-    color: #545b62;
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: black;
+  opacity: 0.6;
+  font-family: "Dancing script", sans-serif;
+  font-size: 105px;
+  border-radius: 10px;
 }
 
 .info {
-    text-align: center;
-    margin: 15px;
-    justify-content: center;
+  text-align: center;
+  margin: 15px;
+  justify-content: center;
 }
 
 .info h2 {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .info-p {
-    width: 70%;
-    margin: 0;
-    padding: 0;
+  width: 70%;
+  margin: 0;
+  padding: 0;
 }
 
 .course {
-    width: 90%;
-    margin: auto;
+  width: 90%;
+  margin: auto;
 }
 
 /*---------------------------------Starters, Mains, Desserts Pages */
 
 .recipes h2 {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 /*---------------------------------Recipe Pages */
 
 .template h2 {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .template h3 {
-    padding-top: 15px;
-    padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 30px;
 }
 
 .recipe-page {
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
 }
 
-
 .ingredients {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*---------------------------------Images */
 
 .recipeimages {
-    padding-top: 20px;
-
+  padding-top: 20px;
 }
 
 .recipeimages img {
-    height: auto;
-    max-width: 100%;
-    padding: 10px;
+  height: auto;
+  max-width: 100%;
+  padding: 10px;
 }
 
-.image-container {
-    height: 110vh;
-    width: 100%;
-    background: url(../images/home-image.jpg) center;
-    position: relative;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.hero-image {
+  height: 110vh;
+  width: 100%;
+  background-image: url(../images/home-image.jpg);
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /*---------------------------------Contact Page */
 
 .email-us {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .contact hr {
-    width: 50%;
+  width: 50%;
 }
 
 .contact h2 {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 form {
-    width: 48%;
-    margin: auto;
+  width: 48%;
+  margin: auto;
 }
 
-
 .form-button {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 input {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 button[type="submit"] {
-    width: 50%;
-    background-color: #a5a2a2;
-    color: #fff;
-    border: 0;
-    border-radius: 2px;
-    margin-top: 10px;
-    height: 40px;
+  width: 50%;
+  background-color: #a5a2a2;
+  color: #fff;
+  border: 0;
+  border-radius: 2px;
+  margin-top: 10px;
+  height: 40px;
 }
 
 button:hover {
-    background-color: #777474
+  background-color: #777474;
 }
 
 .contact-info {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .contact-info i {
-    display: flex;
-    font-size: 30px;
-    justify-content: flex-start;
-    margin-right: 15px;
-    margin-left: 15px;
+  display: flex;
+  font-size: 30px;
+  justify-content: flex-start;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .contact-info p {
-    display: flex;
-    font-size: 14px;    
-    margin-top: 26px;
-
+  display: flex;
+  font-size: 14px;
+  margin-top: 26px;
 }
 
 /*---------------------------------Footer */
 
 footer {
-    height: auto;
-    background-color: #a82f3b;
+  height: auto;
+  background-color: #a82f3b;
 }
 
 .footer-items {
-    margin-bottom: 0;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    justify-content: center;
+  margin-bottom: 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
 }
 
 footer .row {
-    margin-left: 15px;
-    margin-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .icon {
-    color: #fff;
-    font-size: 20px;
+  color: #fff;
+  font-size: 20px;
 }
 
 footer .col-4 {
-    text-align: center;
-    align-items: center;
+  text-align: center;
+  align-items: center;
 }
 
 .social-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 footer li {
-    margin: 15px;
+  margin: 15px;
 }
 
 footer a {
-    color: #fff;
-    margin: 10px;
-    text-align: center;
+  color: #fff;
+  margin: 10px;
+  text-align: center;
 }
 
 footer p {
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
 }
 
 ul.list-inline {
-    margin: 0;
-    display: flex;
+  margin: 0;
+  display: flex;
 }
 
 /*---------------------------------Media Queries */
 
-
 @media screen and (max-width: 992px) {
-    form {
+  form {
     padding-bottom: 20px;
     width: 90%;
     margin: auto;
-}
-
+  }
 }
