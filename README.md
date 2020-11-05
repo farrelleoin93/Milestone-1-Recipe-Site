@@ -116,6 +116,12 @@ The main features that I want this website to have are:
 
 ---
 
+To deploy this project from its GitHub repository to GitHub Pages the following steps were taken:
+1. From the projects repository I clicked on **Settings**.
+2. I then scrolled down to the **GitHub Pages** section.
+3. Within **Source** I clicked on the **Branch** button and I chose **Master** in the dropdown menu.
+4. I then clicked **Save** and refreshed the page. At that point my website was deployed.
+5. I scrolled down to the **GitHub Pages** section again to retrieve the link.
 ## Credit
 
 ---
