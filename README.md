@@ -130,3 +130,32 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 
 - [Google Fonts](https://fonts.google.com)
 - [Font Pair](https://fontpair.co/)
+
+### Media
+
+1. All images were sourced from [Unsplashed](https://unsplash.com/), in particular from the following talented photographers: 
+- Mae Mu 
+- Jennifer Pallain
+- Amber Engle
+- Joe Darams
+- Tara Evans
+- Charles Deluvio
+- Bruna Branco
+- Jason Leung
+- Michelle Tsang
+- Kosma Kurlowics
+- Ala
+- Alex Loup
+
+2. I used [Tiny PNG](https://tinypng.com/) to reduce the size of each image.
+
+3. I used [Font Awesome](https://fontawesome.com/) for all the icons in this project.
+
+4. The logo for this project was made using [Ucraft](https://www.ucraft.com/free-logo-maker).
+
+### Code 
+1. [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - Code for navbar and button was found on Bootstrap [here](https://getbootstrap.com/docs/4.5/components/navbar/) and adapted for this project.
+
+2. [W3Schools](https://www.w3schools.com/) - Some code snippets for the hero image were found [here](https://www.w3schools.com/) and also general help throughout this project was provided by W3Schools. 
+
+3. [CSS-Tricks](https://css-tricks.com/) - Guidance for flexbox was found [here](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and also guidence on how to fix the footer to the bottom of the page was found [here](https://css-tricks.com/couple-takes-sticky-footer/).
