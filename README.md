@@ -18,9 +18,9 @@ This is a recipe website. It is designed to be useful for people with different 
 - Features
 - Technologies
 - Testing
-- Bugs
-- Deployment
-- Credit
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
 ## UX
 
@@ -82,7 +82,7 @@ However, I was not happy with how it looked so I instead decided to go with a ma
 
 ---
 
-## Features
+## <a name="features">Features</a>
 
 ---
 
@@ -92,7 +92,7 @@ The main features that I want this website to have are:
 - links to social media platforms
 - a contact us form
 
-## Technologies
+## <a name="technoilogies">Technologies</a>
 
 ---
 
@@ -103,16 +103,26 @@ The main features that I want this website to have are:
 
 ### Other
 
+- [Tiny PNG](https://tinypng.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Ucraft](https://www.ucraft.com/free-logo-maker)
+- [Bootstrap 4.5](https://getbootstrap.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Balsamiq](https://balsamiq.com/)
+- [Github](https://github.com/)
+- [Gitpod](https://www.gitpod.io/)
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 
-## Testing
+
+## <a name="testing">Testing</a>
 
 ---
 
-## Bugs
+## <a name="bugs">Bugs</a>
 
 ---
 
-## Deployment
+## <a name="deployment">Deployment</a>
 
 ---
 
@@ -122,7 +132,7 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 3. Within **Source** I clicked on the **Branch** button and I chose **Master** in the dropdown menu.
 4. I then clicked **Save** and refreshed the page. At that point my website was deployed.
 5. I scrolled down to the **GitHub Pages** section again to retrieve the link.
-## Credit
+## <a name="credits">Credits</a>
 
 ---
 
