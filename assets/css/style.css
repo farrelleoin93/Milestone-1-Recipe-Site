@@ -10,6 +10,7 @@ body {
   overflow-x: hidden;
 }
 
+
 .site {
   display: flex;
   min-height: 100vh;
@@ -87,8 +88,8 @@ h2 {
   color: white;
   background-color: black;
   opacity: 0.6;
-  font-family: "Dancing script", sans-serif;
-  font-size: 105px;
+  font-family: "Domine", sans-serif;
+  font-size: 50px;
   border-radius: 10px;
 }
 
@@ -103,7 +104,7 @@ h2 {
 }
 
 .info-p {
-  width: 70%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -279,7 +280,7 @@ footer a {
 }
 
 footer p {
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 0;
   color: #fff;
 }
@@ -297,4 +298,14 @@ ul.list-inline {
     width: 90%;
     margin: auto;
   }
+}
+
+@media (min-width: 768px) {
+    .info-p {
+        width: 70%;
+    }
+
+    .hero-text {
+        font-size: 105px;
+    }
 }
