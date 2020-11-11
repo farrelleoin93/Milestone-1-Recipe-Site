@@ -169,3 +169,24 @@ To deploy this project from its GitHub repository to GitHub Pages the following 
 2. [W3Schools](https://www.w3schools.com/) - Some code snippets for the hero image were found [here](https://www.w3schools.com/) and also general help throughout this project was provided by W3Schools. 
 
 3. [CSS-Tricks](https://css-tricks.com/) - Guidance for flexbox was found [here](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and also guidence on how to fix the footer to the bottom of the page was found [here](https://css-tricks.com/couple-takes-sticky-footer/).
+
+### Content
+The information sections on each recipe page were found on the following websites and written by the following Authors:
+
+- Bagels - [Sophisticated Gourmet](https://www.sophisticatedgourmet.com/2009/10/new-york-style-bagel-recipe/) by Kamran Siddiqi
+
+- Onion Rings - [My Latina Table](https://www.mylatinatable.com/homemade-extra-crispy-onion-rings/) by Charbel Barker
+
+- Pork and Cabbage Dumplings - [Serious Eats](https://www.seriouseats.com/recipes/2015/03/the-best-japanese-pork-and-cabbage-dumplings-gyoza-recipe.html) by J. Kenji López-Alt
+
+- Cauliflower Curry - [Minimalist Baker](https://minimalistbaker.com/1-pot-yellow-chickpea-cauliflower-curry/) by Minimalist Baker
+
+- Hake and Crab Linguine - [What Dad Cooker](https://minimalistbaker.com/1-pot-yellow-chickpea-cauliflower-curry/#wprm-recipe-container-34106) by What Dad Cooked
+
+- Meatballs - [Cooking Classy](https://www.cookingclassy.com/meatball-recipe/) by Jaclyn
+
+- Chocolate Brownies - [Recipe Tin Eats](https://www.recipetineats.com/easy-chocolate-brownies/) by Nagl
+
+- Baked Vanilla Cheesecake - [Sallys Baking Addiction](https://sallysbakingaddiction.com/classic-cheesecake/) by Sally
+
+- Chocolate Chip Cookies- [Joy Food Sunshine](https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/) by Laura
