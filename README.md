@@ -78,9 +78,23 @@ However, I was not happy with how it looked so I instead decided to go with a ma
 
 ### Icons
 
+The icons that I used in this project were provided by [Font Awesome](https://fontawesome.com/).
+
 ## Wireframes
 
 ---
+
+### Original Wireframes
+
+The original wireframes from before I started to build my website can be found at the following links:
+
+- [Home Page](https://github.com/farrelleoin93/Milestone-3-Recipe-Site/blob/master/assets/docs/Home-page-wireframes.pdf)
+
+- [Recipe Choice Page](https://github.com/farrelleoin93/Milestone-3-Recipe-Site/blob/master/assets/docs/Recipe-choice-page.pdf)
+
+- [Recipe Pages](https://github.com/farrelleoin93/Milestone-3-Recipe-Site/blob/master/assets/docs/Recipe-page.pdf)
+
+- [Contact](https://github.com/farrelleoin93/Milestone-3-Recipe-Site/blob/master/assets/docs/Contact-page.pdf)
 
 ## <a name="features">Features</a>
 
