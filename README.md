@@ -6,27 +6,27 @@ This is a recipe website. It is designed to be useful for people with different 
 
 ---
 
-- UX
-  - User Stories
-  - Site Owner Goals
-  - User Requirements and Expectations
-  - Design Choices
+- [UX](#ux)
+  - [User Stories](#user-stories)
+  - [Site Owner Goals](#goals)
+  - [User Requirements and Expectations](#user-requirments)
+  - [Design Choices](#design-choices)
     - Fonts
     - Icons
     - Colours
-- Wireframes
-- Features
-- Technologies
-- Testing
+- [Wireframes](#wireframes)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Testing](#testing)
 - [Bugs](#bugs)
 - [Deployment](#deployment)
 - [Credits](#credits)
 
-## UX
+## <a name="ux">UX</a>
 
 ---
 
-### User Stories
+### <a name="user-stories">User Stories</a>
 
 1. As a user, I want to understand what the site is for.
 2. As a user, I want to be able to easily find recipes to cook matching my ability in the kitchen.
@@ -34,14 +34,14 @@ This is a recipe website. It is designed to be useful for people with different 
 4. As a user, I want to be able to find recipes that I have seen on the site in the past.
 5. As a user, I want to be able to contact the owner of the website.
 
-### Site Owner Goals
+### <a name="goals">Site Owner Goals</a>
 
 1. As a site owner, I want to be able to supply aspiring cooks with recipes suitable for beginners.
 2. As a site owner, I want to be able to supply recipes to people with all levels of cooking abilities.
 3. As a site owner, I want to able to answer any questions that site users might have.
 4. As a site owner, I want to increase the volume of people visiting this site.
 
-## User Requirements and Expectations
+## <a name="user-requirements">User Requirements and Expectations</a>
 
 ---
 
@@ -58,7 +58,7 @@ This is a recipe website. It is designed to be useful for people with different 
 - A working nabar bar that leads them to the area of the website that they wanted to reach.
 - Pictures that accurately show the finished result of the recipes.
 
-## Design Choices
+## <a name="design-choices">Design Choices</a>
 
 ---
 
@@ -81,7 +81,7 @@ However, I was not happy with how it looked so I instead decided to go with a ma
 
 The icons that I used in this project were provided by [Font Awesome](https://fontawesome.com/).
 
-## Wireframes
+## <a name="wireframes">Wireframes</a>
 
 ---
 
@@ -112,7 +112,7 @@ Features that will be added in the future:
 - a way to change the amount of ingredients depending on how many people the dish will serve.
 - a way to change the volume metrics eg. 1 pint/500ml.
 
-## <a name="technoilogies">Technologies</a>
+## <a name="technologies">Technologies</a>
 
 ---
 
