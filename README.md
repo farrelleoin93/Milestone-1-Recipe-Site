@@ -28,8 +28,8 @@ This is a recipe website. It is designed to be useful for people with different 
 
 ### User Stories
 
-1. As a user, I want to understant what the site is for.
-2. As a user, I want to be able to find easily recipes to cook matching my ability in the kitchen.
+1. As a user, I want to understand what the site is for.
+2. As a user, I want to be able to easily find recipes to cook matching my ability in the kitchen.
 3. As a user, I want to be able to easily navigate through the site even on my first visit.
 4. As a user, I want to be able to find recipes that I have seen on the site in the past.
 5. As a user, I want to be able to contact the owner of the website.
@@ -38,7 +38,8 @@ This is a recipe website. It is designed to be useful for people with different 
 
 1. As a site owner, I want to be able to supply aspiring cooks with recipes suitable for beginners.
 2. As a site owner, I want to be able to supply recipes to people with all levels of cooking abilities.
-3. As a site owner, I Want to able to answer and questions that site users might have.
+3. As a site owner, I want to able to answer any questions that site users might have.
+4. As a site owner, I want to increase the volume of people visiting this site.
 
 ## User Requirements and Expectations
 
@@ -101,10 +102,15 @@ The original wireframes from before I started to build my website can be found a
 ---
 
 The main features that I want this website to have are:
-- an attractive designed
-- easily understandable navigation on different screen sizes
-- links to social media platforms
-- a contact us form
+- an attractive design.
+- easily understandable navigation on different screen sizes.
+- links to social media platforms.
+- a contact us form.
+
+Features that will be added in the future:
+- videos of each dish being made.
+- a way to change the amount of ingredients depending on how many people the dish will serve.
+- a way to change the volume metrics eg. 1 pint/500ml.
 
 ## <a name="technoilogies">Technologies</a>
 
