@@ -9,7 +9,7 @@ This is a recipe website. It is designed to be useful for people with different 
 - [UX](#ux)
   - [User Stories](#user-stories)
   - [Site Owner Goals](#goals)
-  - [User Requirements and Expectations](#user-requirments)
+  - [User Requirements and Expectations](#user-requirements)
   - [Design Choices](#design-choices)
     - Fonts
     - Icons
