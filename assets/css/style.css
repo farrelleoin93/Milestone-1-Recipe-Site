@@ -144,6 +144,7 @@ h2 {
   padding-top: 30px;
 }
 
+
 .ingredients {
   display: flex;
   flex-direction: column;
@@ -156,11 +157,17 @@ h2 {
   padding-top: 20px;
 }
 
+.recipe-image-box img {
+    max-width: 80%;
+    height: auto;
+}
+
 .recipeimages img {
   height: auto;
   max-width: 100%;
   padding: 10px;
 }
+
 
 .hero-image {
   height: 110vh;
