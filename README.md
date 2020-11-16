@@ -1,5 +1,7 @@
 # Famished - Recipe Website
 
+[View the live project here.](https://farrelleoin93.github.io/Milestone-3-Recipe-Site/)
+
 This is a recipe website. It is designed to be useful for people with different levels of abilities in the kitchen, from complete novice to experienced cook. It is also designed to be easy to navigate for users of all ages.
 
 ## Contents
@@ -96,6 +98,18 @@ The original wireframes from before I started to build my website can be found a
 - [Recipe Pages](https://github.com/farrelleoin93/Milestone-3-Recipe-Site/blob/master/assets/docs/Recipe-page.pdf)
 
 - [Contact](https://github.com/farrelleoin93/Milestone-3-Recipe-Site/blob/master/assets/docs/Contact-page.pdf)
+
+#### Changes to Original Wireframes
+
+- All Pages
+  - The page links in the footer were removed. Since the header was fixed to the top there was no need to have these links in the footer. This change came from advice I recieved from my mentor Akshat Garg.
+- Home Page
+  - "Famished" text box was added to the center of the hero image as the page looked a bit plain without it. This change came from advice I recieved from my mentor Akshat Garg.
+  - Hero image was included on mobile device. This was a result of advice I recieved on my post in peer-code-review on slack from Alexeykuz and Liga.
+- Recipe Pages
+  - The ingredients and Instructions sections were stacked on top of eachother on desktops as It appeared more balanced than it did side by side. This change came from advice I recieved from my mentor Akshat Garg.
+  
+
 
 ## <a name="features">Features</a>
 
