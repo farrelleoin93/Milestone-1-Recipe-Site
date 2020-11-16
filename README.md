@@ -139,11 +139,31 @@ Features that will be added in the future:
 ---
 
 1. All html pages were passed through [W3C Markup Validation Service](https://validator.w3.org/) and the results are as follows:
- - *index.html* - "Document checking completed. No errors or warnings to show."
- - *contact.html* - "Document checking completed. No errors or warnings to show."
- - *starter-recipes.html* - "Document checking completed. No errors or warnings to show."
- - *mains-recipes.html* - "Document checking completed. No errors or warnings to show."
- - *desserts-recipes.html* - "Document checking completed. No errors or warnings to show."
+     - *index.html* - "Document checking completed. No errors or warnings to show."
+     - *contact.html* - "Document checking completed. No errors or warnings to show."
+     - *starter-recipes.html* - "Document checking completed. No errors or warnings to show."
+     - *mains-recipes.html* - "Document checking completed. No errors or warnings to show."
+     - *desserts-recipes.html* - "Document checking completed. No errors or warnings to show."
+
+         When I first passed the rest of the html pages through the validator they all had the same three errors show up as they all use the same template since they are the recipe pages.
+         The errors that shoed up are as follows:
+     1. "Error: Bad value 80% for attribute width on element img: Expected a digit but saw % instead."
+     2. "Error: Bad value auto for attribute height on element img: Expected a digit but saw a instead."
+     3. "Error: No p element in scope but a p end tag seen."
+
+         I then made the appropriate changes and passed the pages through the validator again and the results were as follows:
+     - bagels.html - "Document checking completed. No errors or warnings to show."
+     - brownies.html - "Document checking completed. No errors or warnings to show."
+     - cheesecake.html - "Document checking completed. No errors or warnings to show."
+     - cookies.html - "Document checking completed. No errors or warnings to show."
+     - curry.html - "Document checking completed. No errors or warnings to show."
+     - dumplings.html - "Document checking completed. No errors or warnings to show."
+     - meatballs.html - "Document checking completed. No errors or warnings to show."
+     - pasta.html - "Document checking completed. No errors or warnings to show."
+     - rings.html - "Document checking completed. No errors or warnings to show."
+
+2. The style.css file was passed through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) and got the result: "Congratulations! No Error Found."
+
 
 ## <a name="bugs">Bugs</a>
 
