@@ -139,8 +139,12 @@ Features that will be added in the future:
 ---
 
 1. All html pages were passed through [W3C Markup Validation Service](https://validator.w3.org/) and the results are as follows:
- - index.html - "Document checking completed. No errors or warnings to show."
- - bagels.html - 
+ - *index.html* - "Document checking completed. No errors or warnings to show."
+ - *contact.html* - "Document checking completed. No errors or warnings to show."
+ - *starter-recipes.html* - "Document checking completed. No errors or warnings to show."
+ - *mains-recipes.html* - "Document checking completed. No errors or warnings to show."
+ - *desserts-recipes.html* - "Document checking completed. No errors or warnings to show."
+
 ## <a name="bugs">Bugs</a>
 
 ---
