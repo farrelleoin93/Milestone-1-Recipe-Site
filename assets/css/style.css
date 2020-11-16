@@ -144,6 +144,10 @@ h2 {
   padding-top: 30px;
 }
 
+.recipe-page-about {
+  font-size: 20px;
+  color: #545b62;
+}
 
 .ingredients {
   display: flex;
