@@ -2,6 +2,8 @@
 
 [View the live project here.](https://farrelleoin93.github.io/Milestone-3-Recipe-Site/)
 
+![Responsiveness](assets/docs/responsive.png)
+
 This is a recipe website. It is designed to be useful for people with different levels of abilities in the kitchen, from complete novice to experienced cook. It is also designed to be easy to navigate for users of all ages.
 
 ## Contents
@@ -23,6 +25,7 @@ This is a recipe website. It is designed to be useful for people with different 
 - [Bugs](#bugs)
 - [Deployment](#deployment)
 - [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
 
 ## <a name="ux">UX</a>
 
@@ -69,7 +72,7 @@ This is a recipe website. It is designed to be useful for people with different 
 When I started this project I had intended on using [Roboto](https://fonts.google.com/specimen/Roboto)
  for the headings and navbar links. I also had planned on using [Nunito](https://fonts.google.com/specimen/Nunito?query=nunito) 
 for the paragraphs. However, I was unhappy with how these fonts looked so I decided to use [Domine](https://fonts.google.com/specimen/Domine?query=domine) for the headings and the navbar links.
-I then used [Nunito](https://fonts.google.com/specimen/Nunito?query=nunito) for the paragraphs.
+I then used [Roboto](https://fonts.google.com/specimen/Roboto) for the paragraphs.
 
 ### Colours
 
@@ -77,7 +80,7 @@ I then used [Nunito](https://fonts.google.com/specimen/Nunito?query=nunito) for 
 However, I was not happy with how it looked so I instead decided to go with a maroon to match the marroon coloured salad leaves in the main image on the home page.
 - To contrast this I chose white #fff for the background colour of the body.
 - I also used white #fff for the font in the header and footer as I felt it worked well with the shade of maroon that I used.
-- For the headings and paragraphs in the main body I used a dark grey #5C5553.
+- For the headings and paragraphs in the main body I used a grey #545b62.
 
 ### Icons
 
@@ -178,10 +181,44 @@ Features that will be added in the future:
 
 2. The style.css file was passed through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) and got the result: "Congratulations! No Error Found."
 
+3. I used the Lighthouse function in DevTools and following the results  I used [TinyPNG](https://tinypng.com/) to reduce the size of all images to improve the speed of my webiste.
+Although It also suggested that my colouring scheme was not contrasting enough I decided to not change this as I am happy with the overall look of the website.
+
+4. Further Testing
+  - This site was tested on the following browsers: Google Chrome. Microsoft Edge, Internet Explorer and Safari.
+  - This website was tested on multiple devices, including: Desktop, iPad, iPhone 5/6/7/8/X, Samsung Galaxy S5.
+  - I also asked my friends to test out my the websie and report any bugs that they found.
+  - All links were tested.
+  - I applied Unicorn Revealer to all pages.
+
+5. User Stories
+     - *As a user, I want to understand what the site is for.* - I feel that this was achieved by the us of the hero image on the hom page and the brief description below this image. 
+     - *As a user, I want to be able to easily find recipes to cook matching my ability in the kitchen.* - I feel that this was achieved by choosing recipes of different difficulty to feature on the site.
+     - *As a user, I want to be able to easily navigate through the site even on my first visit.* - I feel that this was achieved by the clear and self-explanatory links on each page.
+     - *As a user, I want to be able to find recipes that I have seen on the site in the past.* - I feel that this was achieved by placing all recipes in pages that are labelled as the type of course that matches them.
+     - *As a user, I want to be able to contact the owner of the website.* - I feel that this was achieved by the form on the contact us page.
+
+6. Site Owner Goals
+     - *As a site owner, I want to be able to supply aspiring cooks with recipes suitable for beginners.* - I feel that this was achieved by providing a recipe that is easy to navigate and use lots of images of appealing dishes. 
+     - *As a site owner, I want to be able to supply recipes to people with all levels of cooking abilities.* - I feel that this was achieved by  choosing recipes of different difficulty to feature on the site.
+     - *As a site owner, I want to able to answer any questions that site users might have.* - I feel that this was achieved by the form on the contact us page.
+     - *As a site owner, I want to increase the volume of people visiting this site.* - I feel that this was achieved by providing a recipe that is easy to navigate and use lots of images of appealing dishes.
+
+
 
 ## <a name="bugs">Bugs</a>
 
 ---
+
+1. When I first passed the recipe pages through he HTML validator I got the following errors:
+     - "Error: Bad value 80% for attribute width on element img: Expected a digit but saw % instead."
+     This was solved by creating a div element and applying the width value in the style.css file instead.
+     - "Error: Bad value auto for attribute height on element img: Expected a digit but saw a instead."
+     This was solved by creating a div element and applying the width value in the style.css file instead.
+     - "Error: No p element in scope but a p end tag seen."
+     This was solved by replacing the p element with a div.
+
+2. I had a small bit of horizontal scroll on my pages, this was solved by by using Unicorn Revealer to find some unwanted margins.
 
 ## <a name="deployment">Deployment</a>
 
@@ -251,3 +288,10 @@ The information sections on each recipe page were found on the following website
 - Baked Vanilla Cheesecake - [Sallys Baking Addiction](https://sallysbakingaddiction.com/classic-cheesecake/) by Sally
 
 - Chocolate Chip Cookies- [Joy Food Sunshine](https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/) by Laura
+
+## <a name="acknowledgements">Acknowledgements</a>
+
+- I would like to thank my mentor Akshat Garg, for lots of invaluable advice.
+- I would like to give a special thanks to Alexeykuz and Liga for taking the time to test out my website and provide me with advice when I posted in peer-code-review on slack.
+- Also I would like to thank the Slack community at large, as I was able to find help with some small issues that I had during this project by just doing a simple search.
+- I would like to thank JimLynx_Lead for hosting the MS1 Preperation Webinar as it really got me going on project at a time when starting seemed very overwhelming.
