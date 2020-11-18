@@ -149,6 +149,7 @@ Features that will be added in the future:
 - [Github](https://github.com/)
 - [Gitpod](https://www.gitpod.io/)
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+- [WebFormatter](https://webformatter.com/html)
 
 
 ## <a name="testing">Testing</a>
