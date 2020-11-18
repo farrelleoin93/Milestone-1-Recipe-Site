@@ -194,6 +194,10 @@ h2 {
   text-align: center;
 }
 
+.email-us p {
+  max-width: 90%;
+}
+
 .contact hr {
   width: 50%;
 }
@@ -273,7 +277,7 @@ footer .row {
 
 .icon {
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 footer .col-4 {
@@ -320,6 +324,11 @@ ul.list-inline {
 }
 
 @media (min-width: 768px) {
+
+    .icon {
+          font-size: 25px;
+    }
+
     .info-p {
         width: 70%;
     }
@@ -328,5 +337,10 @@ ul.list-inline {
         font-size: 105px;
         padding-left: 30px;
         padding-right: 35px;
+    }
+
+    .contact hr {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
