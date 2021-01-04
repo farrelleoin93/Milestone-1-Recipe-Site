@@ -1,6 +1,6 @@
 # Famished - Recipe Website
 
-[View the live project here.](https://farrelleoin93.github.io/Milestone-3-Recipe-Site/)
+[View the live project here.](https://farrelleoin93.github.io/Milestone-1-Recipe-Site/)
 
 ![Responsiveness](assets/docs/responsive.png)
 
